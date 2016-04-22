@@ -22,6 +22,6 @@ var integers = [13, 25, 6, 3, 11, 2, 18, 7, 21, 1, 29, 20, 12, 8];
 //add all methods together.
 integers = integers
 .sort(function (a,b) {return b-a})
-.splice(0, 4).map(function (num){return num *1.5 -1})
+.splice(4).map(function (num){return num *1.5 -1})
 .reduce(function (previousValue, currentValue, index, array){return previousValue + currentValue});
 console.log("Single line answer: ", integers);
